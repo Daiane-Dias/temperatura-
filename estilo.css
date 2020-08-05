@@ -1,0 +1,41 @@
+/*
+Estilos
+*/
+/* 
+    Created on : 29/07/2020, 09:56:30
+    Author     : Pereira
+*/
+html,body{
+    height: 100%;
+    font-family: "arial",sans-serif;
+}
+body{
+    background: linear-gradient(135 deg,rgb(214,81,84)rgd(255,129,83));
+    background-attachment: fixed; 
+}
+.form-cid{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+form-cep *{
+    border:none;
+    
+}
+.input-cid{
+    border-radius: 5px 0 0 5px;
+    padding: 1rem;
+    width:50%;
+    font-size: 1.2rem;
+}
+.btn-cid{
+    border-radius:0 5px 5px 0;
+    margin-left: -5px;
+    padding: 1rem 0;
+    width: 3rem;
+    font-size: 1.2rem;
+    background:rb(196,0,4);
+    color:#fff;
+}

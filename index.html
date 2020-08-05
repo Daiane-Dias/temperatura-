@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Exibir temperatura da cidade e sugerir uma receita
+conforme o valor da temperatura.
+-->
+<html>
+    <head>
+        <title>Temperatura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+    </head>
+    <body>
+        <div>Descubra a temperatura da sua cidade</div>
+        
+        <form class="form-cid">
+            <input  class="input-cid" name="input-cid" type="text" maxlength="20" placeholder="cid" autofocus>
+            <button class="btn-cid" type="submit">Pesquisar</button>
+            <div id="wrapper">
+                <h1 class="city"></h1>
+                <h2><span></span></h2>
+                </div>
+            <h1 class="receita"></h1>
+            <script src="efeito.js"></script>
+    </body>
+</html>
